@@ -22,7 +22,7 @@ $(function(){ $(document).foundation(); });
 function initialize() {
   var map_canvas = document.getElementById('map_canvas');
   var map_options = {
-    center: new google.maps.LatLng(40.6654836,-73.5515827),
+    center: new google.maps.LatLng(40.6651598,-73.5514469),
     zoom: 16,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
