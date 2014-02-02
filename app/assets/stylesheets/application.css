@@ -10,6 +10,15 @@
  *
  *= require_self
  *= require foundation_and_overrides
-
+ *= require font-awesome
  *= require_tree .
  */
+
+
+.aligncenter {
+  text-align: center;
+}
+
+.header {
+  margin-top: 3px;
+}

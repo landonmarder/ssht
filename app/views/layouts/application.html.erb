@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title>South Shore Hand Therapy & Occupational Therapy PLLP</title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -12,8 +12,36 @@
   </head>
 
   <body>
-
+    <div class="header">
+      <div class="row">
+        <div class="large-3 columns">
+          <h1><a href="/"><img src="http://placehold.it/400x100&text=[Logo]"></a></h1>
+        </div>
+        <div class="large-9 columns">
+          <ul class="button-group right">
+            <li><a href="/about" class="button">About Us</a></li>
+            <li><a href="/contact" class="button">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <%= yield %>
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr />
+        <div class="row">
+          <ul class="inline-list right">
+            <li><div class="row"><i class="fa fa-phone"></i> (516) 868-5302</div></li>
+            <li>|</li>
+            <li><div class="row"><i class="fa fa-building-o"></i> 2108 Merrick Mall, Merrick NY 11566</div></li>
+            <li>|</li>
+            <li><a href="mailto:sshandtherapy@gmail.com">Email Us.</a> </li>
+            <li>|</li>
+            <li><div class="row"><a href="https://www.facebook.com/southshorehandtherapy"><i class="fa fa-facebook"></i></a></div></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <%= javascript_include_tag "application" %>
   </body>
 </html>
