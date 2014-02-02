@@ -26,3 +26,9 @@
 .people {
   margin-top: 60px;
 }
+
+#map_canvas {
+  width: 450px;
+  height: 350px;
+  background-color: #CCC;
+}
