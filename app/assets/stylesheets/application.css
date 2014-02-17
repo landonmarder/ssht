@@ -13,6 +13,10 @@
  *= require font-awesome
  *= require_tree .
  */
+/*
+.purple, p{
+  color: #630089;
+}*/
 
 .aligncenter {
   text-align: center;
@@ -32,4 +36,20 @@
 
 .nav-header {
   margin-top: 28px;
+}
+
+@media only screen and (max-width: 479px) {
+  .header h2 {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
 }
