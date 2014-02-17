@@ -14,10 +14,6 @@
  *= require_tree .
  */
 
-body {
-  background: url("http://farm8.staticflickr.com/7428/12596472835_b2b2a1bc66_s.jpg");
-}
-
 .aligncenter {
   text-align: center;
 }
@@ -35,5 +31,5 @@ body {
 }
 
 .nav-header {
-  margin-top: 100px;
+  margin-top: 28px;
 }
