@@ -30,3 +30,7 @@
 .contact li, .therapist li {
   list-style-type: square;
 }
+
+.nav-header {
+  margin-top: 100px;
+}
