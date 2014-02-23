@@ -14,10 +14,6 @@
  *= require_tree .
  */
 
-
-body {
-  color: #694489;
-}
 .aligncenter {
   text-align: center;
 }
@@ -39,7 +35,7 @@ body {
 }
 
 .nancy-pic {
-  margin-top: 75px;
+  margin-top: 70px;
 }
 
 #logo {
@@ -54,6 +50,10 @@ body {
   @include button-base;
   @include button-size;
   @include button-style(red);
+}
+
+.member-horizontal {
+  margin-top: 18px;
 }
 
 body {
