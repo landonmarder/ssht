@@ -13,10 +13,7 @@
  *= require font-awesome
  *= require_tree .
  */
-/*
-.purple, p{
-  color: #630089;
-}*/
+
 
 body {
   color: #694489;
@@ -57,6 +54,10 @@ body {
   @include button-base;
   @include button-size;
   @include button-style(red);
+}
+
+body {
+  background: url("http://farm6.staticflickr.com/5542/12732074583_b13aa7b58d_o.png") !important;
 }
 
 
