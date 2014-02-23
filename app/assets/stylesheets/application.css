@@ -18,6 +18,9 @@
   color: #630089;
 }*/
 
+body {
+  color: #694489;
+}
 .aligncenter {
   text-align: center;
 }
@@ -38,9 +41,24 @@
   margin-top: 28px;
 }
 
-.therapist-pic {
-  height: 272px;
+.nancy-pic {
+  margin-top: 75px;
 }
+
+#logo {
+  margin-top: 9px;
+}
+
+.button {
+  color: red;
+}
+
+.new-button{
+  @include button-base;
+  @include button-size;
+  @include button-style(red);
+}
+
 
 @media only screen and (max-width: 479px) {
   .header h2 {
