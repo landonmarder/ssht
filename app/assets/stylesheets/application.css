@@ -62,6 +62,10 @@
   padding: 20px;
 }
 
+.footer .fa {
+  font-size: 20px;
+}
+
 body {
   background: url("http://farm6.staticflickr.com/5542/12732074583_b13aa7b58d_o.png") !important;
 }
