@@ -66,6 +66,13 @@
   font-size: 20px;
 }
 
+.footer-list {
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
 body {
   background: url("http://farm6.staticflickr.com/5542/12732074583_b13aa7b58d_o.png") !important;
 }
