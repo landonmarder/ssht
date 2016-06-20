@@ -73,6 +73,18 @@
   overflow: hidden;
 }
 
+@media only screen and (min-width: 1024px) {
+  .header-links {
+    float: right !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-links {
+    float: none !important;
+  }
+}
+
 body {
   background: url("http://farm6.staticflickr.com/5542/12732074583_b13aa7b58d_o.png") !important;
 }
