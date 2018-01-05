@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def store
   end
+
+  def test
+    render layout: "test"
+  end
 end
