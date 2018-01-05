@@ -11,7 +11,7 @@ class PagesController < ApplicationController
   def store
   end
 
-  def test
-    render layout: "test"
+  def announcement
+    render layout: "announcement"
   end
 end

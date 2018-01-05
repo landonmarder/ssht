@@ -3,5 +3,5 @@ Ssht::Application.routes.draw do
   get '/about' => 'pages#about'
   get '/contact' => 'pages#contact'
   get '/store' => "pages#store"
-  get '/test' => "pages#test"
+  get '/announcement' => "pages#announcement"
 end
